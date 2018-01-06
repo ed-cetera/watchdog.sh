@@ -1,0 +1,12 @@
+# watchdog.sh watchlist
+
+# format:
+# process_name /command/to/start/process including all parameters
+#
+# Lines starting with '#' are comments.
+# Comments and empty lines are ignored.
+
+# Examples (remove '#' to activate):
+#nginx           /usr/sbin/service nginx start
+#dovecot         /etc/init.d/dovecot start
+#mysqld          systemctl start mysqld
